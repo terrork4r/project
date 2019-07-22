@@ -1,0 +1,163 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: sans-serif;
+	color: #32325f;
+}
+.conteiner{
+	max-width:1140px;
+	width:96%;
+	margin:0 auto;
+}
+.navbar span{
+color: #95989a;
+font-size: 20px;
+font-weight: 700;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom:159px;
+}
+.hero{
+	padding-top: 74px;
+	padding-bottom: 190px;
+	background-color: #f4f5f7;
+}
+.social a{
+	text-decoration: none;
+	margin-right:20px;
+}
+.main{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.main-text{
+	width:50%;
+	
+}
+.subtitle{
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+.title{
+	font-size: 48px;
+	font-weight: 700;
+	color: #32325f;
+	display: block;
+	margin-bottom: 26px;
+}
+.description{
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+	margin-bottom: 16px;
+}
+.price-tag{
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
+.price{
+	display: block;
+	font-size: 48px;
+	font-weight: 400;
+	margin-bottom: 49px;
+}
+.btn{
+	text-decoration: none;
+	box-shadow: 0 3px 6px rgba(173, 173, 173, 0.16);
+	border-radius: 6px;
+	padding: 20px 30px;
+	color:#fff;
+	background-color: grey;
+}
+.green{
+	background-color: #2dce89;
+	margin-right: 30px;
+}
+.fiol{
+	background-color: #5e72e4;
+}
+/*секции общие стили*/
+section{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.section-subtitle{
+	display:block;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 16px;
+}
+.section-title{
+	font-size: 48px;
+	font-weight: 700;
+}
+.wrap{
+	margin-top:100px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.block{
+	width:23%;
+	margin-right: 2%;
+}
+.block-text{
+	font-size: 16px;
+	font-weight: 400;
+	margin-top: 40px;
+	line-height: 1.4;
+}
+/*Секция с людьми*/
+.people{
+	background-color: #f4f5f7;
+}
+.people_text{
+	display: block;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 14px;
+}
+.people-h{
+	display: block;
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 64px;
+}
+.wrap_img{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.wrap_img img{
+	margin-bottom: 36px;
+	width:362px;
+	height:254px ;
+}
+
+/*Подвал сайта*/
+
+footer{
+	padding:70px 0;
+	background-color: #32325f;
+	color:#fff;
+}
+.footer-wrap{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-text{
+	width:33%;
+}
+h4{
+	font-size: 24px;
+	font-weight: 700;
+	margin-bottom: 35px;
+}
