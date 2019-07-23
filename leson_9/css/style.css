@@ -1,0 +1,32 @@
+.row div{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-align: center;
+
+	
+}
+h1{
+	text-align: center;
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+div img{
+	margin:0 auto;
+	
+	margin-bottom: 14px;
+}
+span{
+	font-size: 16px;
+    font-weight: 700;
+    
+}
+.container{
+	padding-top: 70px;
+	padding-bottom: 100px;
+}
+.row{
+	margin-top:82px;
+}
